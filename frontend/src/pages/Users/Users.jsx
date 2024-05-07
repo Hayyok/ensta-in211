@@ -5,9 +5,11 @@ import UsersTable from '../../components/UsersTable/UsersTable';
 function Users() {
   return (
     <div className="Users-container">
-      <h1>This page displays the users</h1>
-      <AddUserForm />
-      <UsersTable />
+      <header className="App-header">
+        <h1>This page displays the users</h1>
+        <AddUserForm />
+        <UsersTable />
+      </header>
     </div>
   );
 }
